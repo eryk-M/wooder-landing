@@ -193,7 +193,7 @@
 
     <footer class="footer">
       <p class="footer__para">&copy; 2016 WOODER</p>
-      <p class="navigation__logo">WOODER</p>
+      <p class="footer__logo navigation__logo">WOODER</p>
       <p class="footer__para">
         Designed by <span>Viacheslav Olianishyn</span>
         <br />
@@ -202,7 +202,10 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
-      new WOW().init();
+      wow = new WOW({
+        mobile: false
+      });
+      wow.init();
     </script>
     <script src="main.js"></script>
   </body>
