@@ -640,17 +640,7 @@ body {
           transform: scale(0);
 }
 
-@media only screen and (orientation: landscape) and (max-width: 668px) {
-  .navigation__burger {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4);
-    position: fixed;
-    left: 1rem;
-    top: 2rem;
-  }
-}
-
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 677px) {
   .navigation__burger {
     -webkit-transform: scale(1.4);
             transform: scale(1.4);
@@ -698,7 +688,7 @@ body {
   transition: 0.6s all;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 677px) {
   .navigation__burger {
     position: fixed;
   }
@@ -731,13 +721,7 @@ body {
   background-color: var(--color-primary);
 }
 
-@media only screen and (orientation: landscape) and (max-width: 668px) {
-  .navigation__nav {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 677px) {
   .navigation__nav {
     display: none;
   }
@@ -868,6 +852,13 @@ body {
 
 @media only screen and (max-width: 751px) {
   .furniture__heading:before {
+    left: -13rem;
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .furniture__heading:before {
     left: -25%;
     width: 10rem;
   }
@@ -891,6 +882,12 @@ body {
   top: 15%;
   left: -15%;
   background-color: var(--color-primary);
+}
+
+@media only screen and (max-width: 751px) {
+  .furniture__para:before {
+    left: -7.2rem;
+  }
 }
 
 .furniture__link {
@@ -1114,6 +1111,13 @@ body {
 
 @media only screen and (max-width: 751px) {
   .decor__heading:before {
+    right: -12rem;
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .decor__heading:before {
     right: -35%;
     width: 10rem;
   }
@@ -1141,6 +1145,12 @@ body {
 }
 
 @media only screen and (max-width: 751px) {
+  .decor__para:before {
+    right: -7rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
   .decor__para:before {
     right: -20%;
   }
@@ -1575,6 +1585,18 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 751px) {
+  .about__heading:before {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 751px) {
+  .about__para:before {
+    display: none;
   }
 }
 
