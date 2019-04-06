@@ -806,7 +806,7 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .furniture {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -825,7 +825,7 @@ body {
   left: 1.5%;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .furniture:after {
     left: 4%;
   }
@@ -866,7 +866,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .furniture__heading:before {
     left: -25%;
     width: 10rem;
@@ -911,12 +911,12 @@ body {
   background-image: url("https://eryk-m.github.io/wooder-landing/img/furniture.png");
   background-position: center;
   background-size: cover;
+  width: 100vw;
   height: 40rem;
-  width: 100%;
   position: relative;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .furniture__image {
     width: 90%;
     margin: 0 auto;
@@ -989,7 +989,7 @@ body {
   color: var(--color-primary);
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .furniture__bottom {
     left: 5%;
     top: 110%;
@@ -1012,7 +1012,7 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .decor {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1031,7 +1031,7 @@ body {
   right: 1.5%;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .decor:after {
     right: 5%;
   }
@@ -1062,7 +1062,7 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .decor__image {
     width: 90%;
     margin: 0 auto;
@@ -1112,7 +1112,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .decor__heading:before {
     right: -35%;
     width: 10rem;
@@ -1140,7 +1140,7 @@ body {
   background-color: var(--color-primary);
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .decor__para:before {
     right: -20%;
   }
@@ -1178,7 +1178,7 @@ body {
   color: var(--color-primary);
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .decor__bottom {
     right: 5%;
     top: 110%;
@@ -1190,7 +1190,7 @@ body {
   right: 0;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .decor__letter {
     top: -52%;
   }
@@ -1201,7 +1201,7 @@ body {
   margin: 22rem auto 0;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .wooder {
     margin-top: 35rem;
   }
@@ -1272,7 +1272,7 @@ body {
           align-items: center;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .wooder__videos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1286,13 +1286,13 @@ body {
   margin-left: 10rem;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .wooder__videos-box:not(:first-of-type) {
     margin-left: 0;
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .wooder__videos-box {
     margin-top: 4rem;
   }
@@ -1367,12 +1367,25 @@ body {
   opacity: 0.5;
 }
 
+@media only screen and (max-width: 1601px) {
+  .complex:before {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
 @media only screen and (max-width: 769px) {
   .complex:before {
     -webkit-transform: scale(0.5);
             transform: scale(0.5);
     right: -25%;
     top: -25%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .complex:before {
+    right: -50%;
   }
 }
 
@@ -1406,7 +1419,7 @@ body {
           transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .complex__wrapper:after {
     display: none;
   }
@@ -1441,7 +1454,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .complex__heading:before {
     left: -15%;
   }
@@ -1453,7 +1466,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .complex__heading {
     font-size: 3rem;
   }
@@ -1474,7 +1487,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .complex__text {
     left: 55%;
     width: 40rem;
@@ -1500,7 +1513,7 @@ body {
   background-color: var(--color-primary);
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .complex__para:before {
     width: 3rem;
     left: -10%;
@@ -1556,7 +1569,7 @@ body {
           align-items: center;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .about {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1575,9 +1588,10 @@ body {
           box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .about__image {
     margin-top: 3rem;
+    background-position: top;
   }
 }
 
@@ -1585,7 +1599,7 @@ body {
   margin-left: 9rem;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .about__text {
     width: 90%;
     margin: 0 auto;
@@ -1637,7 +1651,7 @@ body {
   font-weight: 700;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 751px) {
   .footer__logo {
     font-size: 2.5rem;
     letter-spacing: 1px;
